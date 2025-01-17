@@ -8,7 +8,7 @@ function App() {
   function handleclickAdd(){
     setCount(count+1)
   }
-
+  
   function handleclickSub(){
     setCount(count-1)
   }
