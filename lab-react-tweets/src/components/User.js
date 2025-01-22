@@ -1,4 +1,4 @@
-export function User({ name, handle }) {
+export default function User({ name, handle }) {
   return (
     <>
       <span className="user">

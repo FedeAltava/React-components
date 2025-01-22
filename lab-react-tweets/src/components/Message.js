@@ -1,4 +1,4 @@
-export function Message({message}) {
+export default function Message({message}) {
     
   return (
     <>

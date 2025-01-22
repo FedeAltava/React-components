@@ -1,4 +1,4 @@
-export function Actions() {
+export default function Actions() {
   return (
     <>
       <div className="actions">
@@ -7,6 +7,7 @@ export function Actions() {
         <i className="fas fa-retweet"></i>
         <i className="far fa-heart"></i>
         <i className="fas fa-share"></i>
+        <i className="fas fa-ellipsis-h"></i>
       </div>
     </>
   );
