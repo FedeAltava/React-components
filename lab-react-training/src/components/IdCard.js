@@ -13,7 +13,7 @@ export default function IdCard({
         <img src={picture} alt="imagen" />
       </div>
       <div>
-        <ul>
+        <ul className="ul">
           <li>First name: {firstName}</li>
           <li>Last name: {lastName}</li>
           <li>Gender: {gender}</li>
