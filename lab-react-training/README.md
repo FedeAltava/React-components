@@ -31,8 +31,6 @@
 
 The purpose of this exercise is to practice the core React concepts such as: creating components, passing data through props, working with state, rendering lists, and working with forms (controlled components).
 
-To see the expected result for each iteration, refer to the solution example: [**React Training - solution**](https://5c6c2a0de07b084ce35373ee--determined-aryabhata-a8a833.netlify.com/).
-
 ## Setup
 
 - Fork this repo
@@ -54,7 +52,7 @@ $ npm start
   git push origin master
   ```
 
-- Create a Pull Request so that your TAs can review your work.
+
 
   
 
