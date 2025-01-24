@@ -23,3 +23,16 @@ code {
 .container ul{
   list-style-type: none
 }
+
+.greeting{
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.visa{
+  text-align: right;
+}
