@@ -6,7 +6,7 @@ export default function IdCard({
   birth,
   picture,
 }) {
-  console.log(lastName, firstName);
+ 
   return (
     <div className="container">
       <div>
