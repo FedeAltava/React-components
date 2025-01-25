@@ -33,9 +33,17 @@ code {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 }
+.creditCardContainer{
+  border-radius: 2%;
+  margin-top: 5px;
+  max-width: 300px;
+  padding: 0px 10px 0px 10px;
+  margin-left: 100px;
+}
 .visa{
   text-align: right;
 }
 .number{
   text-align: center;
+
 }

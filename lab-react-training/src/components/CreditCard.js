@@ -9,7 +9,7 @@ export default function CreditCard(props){
     console.log(newNumber.join(''))
     return(
         
-        <div>
+        <div className="creditCardContainer" style={{ backgroundColor: bgColor ,color:color}}>
             <div className="visa">
                 <h3>{type}</h3>
             </div>
@@ -17,7 +17,10 @@ export default function CreditCard(props){
                 <p>{newNumber.join('')}</p>
             </div>
             <div className="date">
-                <p>{newExpirationMonth}/{newExpirationYear}</p>
+                <p>{newExpirationMonth}/{newExpirationYear} {bank}</p>
+            </div>
+            <div className="owner">
+                <p>{owner}</p>
             </div>
         </div>
         
