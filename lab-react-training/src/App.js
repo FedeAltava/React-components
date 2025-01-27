@@ -5,6 +5,7 @@ import React from 'react';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
+import Rating from './components/Rating';
 
 function App() {
   return (
@@ -62,6 +63,9 @@ function App() {
         bgColor="#ddbb55"
         color="white" 
       />
+      <Rating rating={4}/>
+      <Rating rating={2.9}/>
+      <Rating rating={1.4}/>
       </div>
     </div>
   
